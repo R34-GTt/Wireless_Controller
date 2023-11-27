@@ -3,7 +3,7 @@
 -Selfmade model railload wireless controller-
 
 0. Overall
-   This is mocrocomputer ESP32 based model railload wireless controller.
+   This is mocrocomputer ESP32 based model railload wireless controller. 
    These are build by Parant unit and Child unit.
    Parent unit and Child unit are connected by Wifi.
 
