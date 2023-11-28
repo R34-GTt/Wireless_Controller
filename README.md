@@ -44,7 +44,7 @@
    <ul>
    <li>Main volume (VR Main 10Kohm):Used to run the train when the remote mode is turned on. The position when the power is turned on is set virtual midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
    <li>Sub volume (VR Sub 10Kohm): This potentiometer is used to adjust the minimum output power. See Figure 5.<br>
-</li>
+   </ul>
    <img src="./image/th.png" width=400><br>
    　　Fig.5<br>
    At child unit, I use mobile battery for it's power source and connect ESP32 board via USB cable.
