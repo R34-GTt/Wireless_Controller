@@ -49,7 +49,7 @@
    　　Fig.5<br>
    At child unit, I use mobile battery for it's power source and connect ESP32 board via USB cable.
    Child Unit's program is wpower_c.ino, you should modify Wifi-SSID and password at wpower_c.ino(same as wpower_p.ino).<br>
-
+<br>
 <li>How to use<br>
    Turn on the parent unit first, then the child unit.　Before turn on child unit, Main volume have to set midpoint.<br>
 </ol>
