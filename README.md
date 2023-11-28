@@ -37,7 +37,8 @@
    Parent Unit's program is wpower_p.ino, you should modify Wifi-SSID and password at wpowerp.ino.<br>
 
 <li>Child Unit<br>
-   The child unit consists of an ESP32 and two potentiometers.
+   The child unit consists of an ESP32 and two potentiometers.<br>
+   <img src="./image/cont_c.png" width=400><br>
    <ul>
    <li>Main volume (VR Main):Used to run the train when the remote mode is turned on. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
    <li>Sub volume (VR Sub): Supplies power to the ESP32 board, preferably with an output of 5V 1A or higher.
