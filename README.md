@@ -43,7 +43,7 @@
    Fig.4<br>
    <ul>
    <li>Main volume (VR Main 10Kohm):Used to run the train when the remote mode is turned on. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
-   <li>Sub volume (VR Sub 10Kohm): This potentiometer is used to adjust the minimum output value. See Figure 5.<br>
+   <li>Sub volume (VR Sub 10Kohm): This potentiometer is used to adjust the minimum output power. See Figure 5.<br>
    <img src="./image/th.png" width=400><br>
    Fig.5<br>
 
