@@ -22,6 +22,7 @@
    Parent unit is build by ESP32 and moterdriver mainly.<br>
    This is Parent unit schematic.<br>
    <img src="./image/cont_p.png" width=500><br>
+   Fig.3<br>
    The roles of each component are as follows
    <ul>
    <li>Main switch (SW Main): Switch for the power supply of the entire controller
@@ -29,7 +30,7 @@
    <li>Motor Mode switch (Motor Mode): Switches motor driver control between On-Brake and On-Free. On-Brake seems to provide better controllability at lower speeds for coreless motors.
    <li>Throttle mode switch (Th Mode): Reduces the change in power output when the throttle is not opened very much. For coreless motors, it is recommended to set this switch to On.
    <li>Remote switch (Remote): Turns on/off wireless remote control.
-   <li>Main volume (VR Main): Used to run the train when the remote mode is turned off. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
+   <li>Main volume (VR Main 10Kohm): Used to run the train when the remote mode is turned off. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
    <li>Motor driver BD6231: BD6231 is a 1A output motor driver. When using other motor drivers, use those that support PWM input. Also, the BD6231 has automatic output protection at 1.3A. Other motor drivers may not have such a function, so take appropriate output protection measures.
    <li>LED1, LED2: Indicators for running direction.
    </ul>
@@ -39,8 +40,11 @@
 <li>Child Unit<br>
    The child unit consists of an ESP32 and two potentiometers.<br>
    <img src="./image/cont_c.png" width=400><br>
+   Fig.4<br>
    <ul>
-   <li>Main volume (VR Main):Used to run the train when the remote mode is turned on. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
-   <li>Sub volume (VR Sub): Supplies power to the ESP32 board, preferably with an output of 5V 1A or higher.
+   <li>Main volume (VR Main 10Kohm):Used to run the train when the remote mode is turned on. The position when the power is turned on is the midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
+   <li>Sub volume (VR Sub 10Kohm): This potentiometer is used to adjust the minimum output value. See Figure 5.<br>
+   <img src="./image/th.png" width=400><br>
+   Fig.5<br>
 
 </ol>
