@@ -10,12 +10,13 @@ Although there are many variations of the ESP32, we recommend using a developmen
 The ESP32-DevKitC-32D can be purchased on Ebay, Aliexpress, etc. starting at $4. At this time, purchase one with a built-in antenna (Fig. 1).<br>
    <img src="./image/esp32.png" width=300><br>
     Fig.1<br><br>
-  This controller are build by Parant unit and Child unit. Both unit includes ESP32 and are connected by Wifi.<br>
+  This controller are build by Parant unit and Child unit. Both unit includes ESP32 and are connected by Wifi. So to program Parent unit and Child unit, you have to prepare Arduino development enviloment and add esp32 configration.<br>
 
 <li>Parent Unit<br>
-   Parent unit is build by ESP32 and moterdriver mainly. Parent unit ESP32 programmed Arduino, wpowerp.ino.<br>
-   You should modify Wifi-SSID and password at wpowerp.ino.<br>
-   This is Parent unit schematic.
+   Parent unit is build by ESP32 and moterdriver mainly.<br>
+   This is Parent unit schematic.<br>
+   <img src="./image/cont_p.png" width=300><br>
+   Parent Unit's program is wpower_p.ino, you should modify Wifi-SSID and password at wpowerp.ino.<br>
 
 <li>Child Unit
    
