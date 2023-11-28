@@ -14,8 +14,8 @@
    <br>
    The photo below shows the finished product.
    Two pairs of units are being created. One uses an old TOMIX controller as a case for the parent unit, and the other uses an old KATO case.
-   Both of the child units are small plastic cases with mobile batteries strapped to them with rubber bands with Velcro.
-   <img src="./image/cont.jpg" width=300><br>
+   Both of the child units are small plastic cases with mobile batteries strapped to them with rubber bands with Velcro.<br>
+   <img src="./image/cont.jpg" width=500><br>
 <br>
    <br>
 <li>Parent Unit<br>
