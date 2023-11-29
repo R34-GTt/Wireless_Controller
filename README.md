@@ -5,6 +5,7 @@
 <ol>
 <li>Introduction<br>
    This is microprocessor ESP32 based model railload wireless controller.<br>
+   The concept is simple, make it easy to carry and easy to concentrate on driving.<br>
    ESP32 is a microprocessor developed by Espressif Systems, with built-in Wi-Fi and Bluetooth, low cost, low power consumption, and other features.
    Although there are many variations of the ESP32, i recommend using a development board that uses the ESP-WROOM-32D (e.g. ESP32-DevKitC-32D).
    The ESP32-DevKitC-32D can be purchased on Ebay, Aliexpress, etc. starting at $4. At this time, purchase with a built-in antenna model (Fig. 1).<br>
@@ -36,7 +37,7 @@
    </ul>
    
    Parent Unit's program is wpower_p.ino, you should modify Wifi-SSID and password at wpower_p.ino.<br>
-
+<br>
 <li>Child Unit<br>
    The child unit consists of an ESP32 and two potentiometers.<br>
    <img src="./image/cont_c.png" width=400><br>
