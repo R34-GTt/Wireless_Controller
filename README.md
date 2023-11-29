@@ -17,13 +17,13 @@
    Two pairs of units are being created. One uses an old TOMIX controller as a case for the parent unit, and the other uses an old KATO case.
    Both of the child units are small plastic cases with mobile batteries strapped to them with rubber bands with Velcro.<br>
    <img src="./image/cont.jpg" width=500><br>
-   　　Fig.2<br>
+   　　Fig.2<br><br>
    <br>
 <li>Parent Unit<br>
    Parent unit is build by ESP32 and moterdriver mainly.<br>
    This is Parent unit schematic.<br>
    <img src="./image/cont_p.png" width=500><br>
-   　　Fig.3<br>
+   　　Fig.3<br><br>
    The roles of each component are as follows
    <ul>
    <li>Main switch (SW Main): Switch for the power supply of the entire controller
@@ -41,13 +41,13 @@
 <li>Child Unit<br>
    The child unit consists of an ESP32 and two potentiometers.<br>
    <img src="./image/cont_c.png" width=400><br>
-   　　Fig.4<br>
+   　　Fig.4<br><br>
    <ul>
    <li>Main volume (VR Main 10Kohm):Used to run the train when the remote mode is turned on. The position when the power is turned on is set virtual midpoint, from which the train runs back and forth by turning it left or right. For this purpose, a potentiometer with a midpoint click should be used.
    <li>Sub volume (VR Sub 10Kohm): This potentiometer is used to adjust the minimum output power. See Figure 5.<br>
    </ul>
    <img src="./image/th.png" width=400><br>
-   　　Fig.5<br>
+   　　Fig.5<br><br>
    At child unit, I use mobile battery for it's power source and connect ESP32 board via USB cable.
    Child Unit's program is wpower_c.ino, you should modify Wifi-SSID and password at wpower_c.ino(same as wpower_p.ino).<br>
 <br>
