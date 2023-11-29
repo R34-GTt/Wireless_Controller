@@ -26,7 +26,7 @@
    　　Fig.3<br><br>
    The roles of each component are as follows
    <ul>
-   <li>Main switch (SW Main): Switch for the power supply of the entire controller
+   <li>Main switch (SW Main): Switch for the power supply of the entire controller. I use 12V 1.5A AC adapter for power supply.
    <li>5V Switching Regulator (5V SWREG): Supplies power to the ESP32 board, preferably with an output of 5V 1A or higher.
    <li>Motor Mode switch (Motor Mode): Switches motor driver control between On-Brake and On-Free. On-Brake seems to provide better controllability at lower speeds for coreless motors.
    <li>Throttle mode switch (Th Mode): Reduces the change in power output when the throttle is not opened very much. For coreless motors, it is recommended to set this switch to On.
